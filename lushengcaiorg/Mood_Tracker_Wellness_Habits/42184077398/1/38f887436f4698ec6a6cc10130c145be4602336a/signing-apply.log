@@ -1,0 +1,7 @@
+已更新 TargetAttributes 手动签名 target=2
+已更新签名配置：com.tracker.wellness.habits.widget(2), com.tracker.wellness.habits(2)；手动签名 target=2；项目级清理=0；xcconfig=0
+手动签名校验通过：
+target=MoodTrackerWellnessHabits config=Debug bundleId=com.tracker.wellness.habits profileUuid=9b346a1f-b170-4c64-bf82-c80676f66dcf profileName=appstore-com.tracker.wellness.habits-20261106075553772 team=C6FCVAR45U identity=Apple Distribution: shengcai lu (C6FCVAR45U)
+target=MoodTrackerWellnessHabits config=Release bundleId=com.tracker.wellness.habits profileUuid=9b346a1f-b170-4c64-bf82-c80676f66dcf profileName=appstore-com.tracker.wellness.habits-20261106075553772 team=C6FCVAR45U identity=Apple Distribution: shengcai lu (C6FCVAR45U)
+target=MoodTrackerWellnessHabitsWidget config=Debug bundleId=com.tracker.wellness.habits.widget profileUuid=d833a370-5c73-425a-a505-18fa415ba758 profileName=appstore-com.tracker.wellness.habits.widget-20261106075554257 team=C6FCVAR45U identity=Apple Distribution: shengcai lu (C6FCVAR45U)
+target=MoodTrackerWellnessHabitsWidget config=Release bundleId=com.tracker.wellness.habits.widget profileUuid=d833a370-5c73-425a-a505-18fa415ba758 profileName=appstore-com.tracker.wellness.habits.widget-20261106075554257 team=C6FCVAR45U identity=Apple Distribution: shengcai lu (C6FCVAR45U)

@@ -1,0 +1,75 @@
+Command line invocation:
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild archive -workspace /Users/runner/work/Mood_Tracker_Wellness_Habits/Mood_Tracker_Wellness_Habits/MoodTrackerWellnessHabits.xcworkspace -scheme MoodTrackerWellnessHabits -configuration Release -destination generic/platform=iOS -skipMacroValidation -skipPackagePluginValidation -archivePath /Users/runner/work/Mood_Tracker_Wellness_Habits/Mood_Tracker_Wellness_Habits/build.xcarchive
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (9 targets)
+    Target 'MoodTrackerWellnessHabits' in project 'MoodTrackerWellnessHabits'
+        ➜ Explicit dependency on target 'MoodTrackerWellnessHabitsWidget' in project 'MoodTrackerWellnessHabits'
+        ➜ Implicit dependency on target 'Pods-MoodTrackerWellnessHabits' in project 'Pods' via file 'Pods_MoodTrackerWellnessHabits.framework' in build phase 'Link Binary'
+        ➜ Implicit dependency on target 'SVProgressHUD' in project 'Pods' via options '-framework SVProgressHUD' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'SubscriptionKit' in project 'Pods' via options '-framework SubscriptionKit' in build setting 'OTHER_LDFLAGS'
+    Target 'Pods-MoodTrackerWellnessHabits' in project 'Pods'
+        ➜ Explicit dependency on target 'SVProgressHUD' in project 'Pods'
+        ➜ Explicit dependency on target 'SubscriptionKit' in project 'Pods'
+        ➜ Explicit dependency on target 'UMAPM' in project 'Pods'
+        ➜ Explicit dependency on target 'UMCommon' in project 'Pods'
+        ➜ Explicit dependency on target 'UMDevice' in project 'Pods'
+    Target 'SubscriptionKit' in project 'Pods'
+        ➜ Explicit dependency on target 'SubscriptionKit-SubscriptionKit' in project 'Pods'
+        ➜ Explicit dependency on target 'UMAPM' in project 'Pods'
+        ➜ Explicit dependency on target 'UMCommon' in project 'Pods'
+        ➜ Explicit dependency on target 'UMDevice' in project 'Pods'
+    Target 'UMAPM' in project 'Pods'
+        ➜ Explicit dependency on target 'UMCommon' in project 'Pods'
+    Target 'UMCommon' in project 'Pods'
+        ➜ Explicit dependency on target 'UMDevice' in project 'Pods'
+    Target 'UMDevice' in project 'Pods' (no dependencies)
+    Target 'SubscriptionKit-SubscriptionKit' in project 'Pods' (no dependencies)
+    Target 'SVProgressHUD' in project 'Pods' (no dependencies)
+    Target 'MoodTrackerWellnessHabitsWidget' in project 'MoodTrackerWellnessHabits' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode_27.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_27.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode_27.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -x objective-c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/momc --dry-run --action generate --swift-version 5.9 --sdkroot /Applications/Xcode_27.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk --iphoneos-deployment-target 16.0 --module MoodTrackerWellnessHabits /Users/runner/work/Mood_Tracker_Wellness_Habits/Mood_Tracker_Wellness_Habits/Sources/ManagedModel/MoodTrackerWellnessHabits.xcdatamodeld /Users/runner/Library/Developer/Xcode/DerivedData/MoodTrackerWellnessHabits-ccdcwxgsipgzeegpppapcqexnohj/Build/Intermediates.noindex/ArchiveIntermediates/MoodTrackerWellnessHabits/IntermediateBuildFilesPath/MoodTrackerWellnessHabits.build/Release-iphoneos/MoodTrackerWellnessHabits.build/DerivedSources/CoreDataGenerated/MoodTrackerWellnessHabits
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -V
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/runner/work/Mood_Tracker_Wellness_Habits/Mood_Tracker_Wellness_Habits/Sources/Resources/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+ExecuteExternalTool /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+Build description signature: 7b805fe16eeeb818523459bc8cb388a2
+Build description path: /Users/runner/Library/Developer/Xcode/DerivedData/MoodTrackerWellnessHabits-ccdcwxgsipgzeegpppapcqexnohj/Build/Intermediates.noindex/ArchiveIntermediates/MoodTrackerWellnessHabits/IntermediateBuildFilesPath/XCBuildData/7b805fe16eeeb818523459bc8cb388a2.xcbuilddata
+/Users/runner/work/Mood_Tracker_Wellness_Habits/Mood_Tracker_Wellness_Habits/MoodTrackerWellnessHabits.xcodeproj: error: Provisioning profile "appstore-com.tracker.wellness.habits.widget-20261106075554257" doesn't support the group.com.subscribeGroup.share.pro App Group. (in target 'MoodTrackerWellnessHabitsWidget' from project 'MoodTrackerWellnessHabits')
+/Users/runner/work/Mood_Tracker_Wellness_Habits/Mood_Tracker_Wellness_Habits/MoodTrackerWellnessHabits.xcodeproj: error: Provisioning profile "appstore-com.tracker.wellness.habits.widget-20261106075554257" doesn't match the entitlements file's value for the com.apple.security.application-groups entitlement. (in target 'MoodTrackerWellnessHabitsWidget' from project 'MoodTrackerWellnessHabits')
+/Users/runner/work/Mood_Tracker_Wellness_Habits/Mood_Tracker_Wellness_Habits/MoodTrackerWellnessHabits.xcodeproj: error: Provisioning profile "appstore-com.tracker.wellness.habits-20261106075553772" doesn't include the WeatherKit capability. (in target 'MoodTrackerWellnessHabits' from project 'MoodTrackerWellnessHabits')
+/Users/runner/work/Mood_Tracker_Wellness_Habits/Mood_Tracker_Wellness_Habits/MoodTrackerWellnessHabits.xcodeproj: error: Provisioning profile "appstore-com.tracker.wellness.habits-20261106075553772" doesn't include the com.apple.developer.weatherkit entitlement. (in target 'MoodTrackerWellnessHabits' from project 'MoodTrackerWellnessHabits')
+** ARCHIVE FAILED **
+
+
+The following build commands failed:
+	Archiving workspace MoodTrackerWellnessHabits with scheme MoodTrackerWellnessHabits
+(1 failure)

@@ -1,0 +1,6 @@
+Bundle ID 资源匹配：com.tracker.wellness.habits -> GKD797K493
+证书查询结果：1 个 [ 'DISTRIBUTION' ]
+签名 profile 新建：bundleId=com.tracker.wellness.habits profile=appstore-com.tracker.wellness.habits-20261106075553772 [id=B5XNKT3UH4] uuid=9b346a1f-b170-4c64-bf82-c80676f66dcf
+Bundle ID 资源匹配：com.tracker.wellness.habits.widget -> 6XJ34T99K4
+签名 profile 新建：bundleId=com.tracker.wellness.habits.widget profile=appstore-com.tracker.wellness.habits.widget-20261106075554257 [id=YY225CRR4L] uuid=d833a370-5c73-425a-a505-18fa415ba758
+签名 bundleIds: com.tracker.wellness.habits(appstoreconnect, uuid=9b346a1f-b170-4c64-bf82-c80676f66dcf), com.tracker.wellness.habits.widget(appstoreconnect, uuid=d833a370-5c73-425a-a505-18fa415ba758)

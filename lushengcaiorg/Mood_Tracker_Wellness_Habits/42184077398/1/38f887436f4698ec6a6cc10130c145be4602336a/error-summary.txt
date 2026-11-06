@@ -1,0 +1,1 @@
+/Users/runner/work/Mood_Tracker_Wellness_Habits/Mood_Tracker_Wellness_Habits/MoodTrackerWellnessHabits.xcodeproj: error: Provisioning profile "appstore-com.tracker.wellness.habits-20261106075553772" doesn't include the com.apple.developer.weatherkit entitlement. (in target 'MoodTrackerWellnessHabits' from project 'MoodTrackerWellnessHabits')
